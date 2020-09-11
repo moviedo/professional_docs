@@ -1,0 +1,11 @@
+{
+	"name": "professional_docs",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"build": "yarn node script.js"
+	},
+	"dependencies": {
+		"prince": "^1.8.3"
+	}
+}
