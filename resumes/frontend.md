@@ -41,7 +41,6 @@
 	<section>
 		<address>
 			<strong class="primary size-large">Mauro Oviedo</strong><br/>
-			<br>
 			<a href="https://github.com/moviedo">
 				github.com/moviedo
 			</a>
