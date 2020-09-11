@@ -1,3 +1,3 @@
 # Professional Docs
 
-Resume and cover letters and other docs for career.
+Resume, cover letters and other docs for career advancement.
