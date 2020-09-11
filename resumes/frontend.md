@@ -41,9 +41,6 @@
 	<section>
 		<address>
 			<strong class="primary size-large">Mauro Oviedo</strong><br/>
-			<a href="mailto:mauro.a.oviedo@gmail.com">
-				mauro.a.oviedo@gmail.com
-			</a>
 			<br>
 			<a href="https://github.com/moviedo">
 				github.com/moviedo
