@@ -60,7 +60,7 @@
 				<strong>Experienced with:</strong> TypeScript, Angular, Python, Django, BackboneJS
 			</ol>
 			<ol>
-				<strong>Familiar with:</strong> Reactjs
+				<strong>Familiar with:</strong> Reactjs, Erlang, Elixir, Phoenix
 			</ol>
 		</ul>
 	</section>
