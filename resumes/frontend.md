@@ -1,6 +1,5 @@
 <style>
-	#resume {
-		margin: 25px;
+	body {
 		background: white;
 		color: black;
 	}
@@ -38,7 +37,7 @@
 	}
 </style>
 
-<div id="resume">
+<body>
 	<section>
 		<address>
 			<strong class="primary size-large">Mauro Oviedo</strong><br/>
@@ -65,4 +64,4 @@
 			</ol>
 		</ul>
 	</section>
-</div>
+</body>
