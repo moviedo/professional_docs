@@ -25,15 +25,26 @@
 	address {
 		font-style: normal;
 	}
-	ul, ol {
-		margin-left; 0;
-		margin-right; 0;
-		padding-left; 0;
-		padding-right; 0;
+
+	.flex-container {
+		display: flex;
+	}
+	.title-container {
+		display: flex;
+		justify-content: space-between;
+	}
+	.grow1 {
+		flex-basis: 25%;
+	}
+	.grow3 {
+		flex-basis: 75%;
 	}
 
-	.parent-container {
-		display: flex;
+	ul {
+		padding: 0;
+	}
+	li {
+		list-style: none;
 	}
 </style>
 
@@ -46,18 +57,40 @@
 			</a>
 		</address>
 	</section>
-	<section class="parent-container">
-		<h2 style="flex-grow: 1;" class="secondary">Skills</h2>
-		<ul style="flex-grow: 3;">
-			<ol>
+	<section class="flex-container">
+		<h2 class="secondary grow1">Skills</h2>
+		<ul class="grow3">
+			<li>
 				<strong>Proficient in:</strong> JavaScript, Vuejs, Angularjs, Webpack, Sass, Less, CSS, Git
-			</ol>
-			<ol>
+			</li>
+			<li>
 				<strong>Experienced with:</strong> TypeScript, Angular, Python, Django, BackboneJS
-			</ol>
-			<ol>
+			</li>
+			<li>
 				<strong>Familiar with:</strong> Reactjs, Erlang, Elixir, Phoenix
-			</ol>
+			</li>
 		</ul>
+	</section>
+	<section class="flex-container">
+		<h2 class="secondary grow1">Experience</h2>
+		<div class="grow3">
+			<div class="title-container">
+				<span>Zipari, New York, NY</span><span>Mar 2015 – Present</span>
+			</div>
+			<div>
+				Full-Stack Developer
+			</div>
+		</div>
+	</section>
+	<section class="flex-container">
+		<h2 class="secondary grow1">Education</h2>
+		<div class="grow3">
+			<div class="title-container">
+				<span>The City College of New York</span><span>New York, NY</span>
+			</div>
+			<div>
+				<i>Bachelor of Science</i>, Computer Science
+			</div>
+		</div>
 	</section>
 </body>
