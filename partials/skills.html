@@ -1,0 +1,10 @@
+<section class="flex-container">
+	<h2 class="secondary grow1">Skills</h2>
+	<ul class="grow3">
+		{% for title, skill in skills %}
+		<li>
+			<strong>{{ title }}:</strong> {{ skill }}
+		</li>
+		{% endfor %}
+	</ul>
+</section>

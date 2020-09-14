@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	{% include "./css.html" %}
+	<section>
+		<address>
+			<strong class="primary size-large">Mauro Oviedo</strong><br/>
+			<a href="https://github.com/moviedo">
+				github.com/moviedo
+			</a>
+		</address>
+	</section>
+
+	{% block main %}{% endblock %}
+
+	<section class="flex-container">
+		<h2 class="secondary grow1">Education</h2>
+		<div class="grow3">
+			<div class="title-container">
+				<span>The City College of New York</span><span>New York, NY</span>
+			</div>
+			<div>
+				<i>Bachelor of Science</i>, Computer Science
+			</div>
+		</div>
+	</section>
+</body>
+</html>

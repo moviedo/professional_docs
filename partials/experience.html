@@ -1,0 +1,24 @@
+<section class="flex-container">
+	<h2 class="secondary grow1">Experience</h2>
+	<div class="grow3">
+		{% for exp in experiences %}
+		<div>
+			<div class="title-container">
+				<span>{{ exp.company }}, {{ exp.location }}</span><span>{{ exp.druation }}</span>
+			</div>
+
+			<div>
+				{{ exp.position }}
+			</div>
+
+			<ul class="details">
+				{% for detail in exp.details %}
+				<li>
+					{{ detail }}
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+		{% endfor %}
+	</div>
+</section>
