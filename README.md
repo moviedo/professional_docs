@@ -1,16 +1,17 @@
 # Professional Docs
 
-Resume, cover letters and other docs for career advancement.
+Project to manage and generate resume pdfs from html files.
 
 ## Setup
 
 Installation setup.
 
-1. Install nodejs according to package.json engine requirements.
+1. Install nodejs according to **package.json** engine requirements.
 1. Install yarn.
-1. Install dependencies, `yarn`.
+1. Install dependencies by running: `yarn`.
 
-## Generate PDFs
+## Workflow to Generate PDFs
 
-Generate PDFs from markdown files located in `./resume` directory with `yarn build` command.
-You can see the generated PDFs in the `./dist` directory.
+Make changes to **resume.html**, partial files, and dependent JSON data files located in `./data` & `./partials`. Then, run `yarn build` command to generate PDFs based on above file.
+
+You can see all generated PDFs in the `./dist` directory.
