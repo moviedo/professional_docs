@@ -1,0 +1,69 @@
+{
+	"skills": {
+		"Proficient in": "JavaScript, Vuejs, Git, Vagrant, Ansible",
+		"Experienced with": "Python, Django, Postgres, PostGIS, AWS, Jenkins, Travis-CI",
+		"Familiar with": "Reactjs, Erlang, Elixir, Phoenix"
+	},
+	"experiences": [
+		{
+			"company": "Zipari",
+			"location": "New York, NY",
+			"druation": "Mar 2015 – Present",
+			"position": "Lead Software Engineer",
+			"details": [
+				"test 1",
+				"test 2",
+				"test 3",
+				"test 4"
+			]
+		},
+		{
+			"company": "Dom and Tom",
+			"location": "New York, NY",
+			"druation": "Feb 2014 – Feb 2015",
+			"position": "Full-Stack Developer",
+			"details": [
+				"test 1",
+				"test 2",
+				"test 3"
+			]
+		},
+		{
+			"company": "Food To Eat",
+			"location": "New York, NY",
+			"druation": "Sep 2013 – Feb 2014",
+			"position": "Full-Stack Developer",
+			"details": [
+				"test 1",
+				"test 2"
+			]
+		},
+		{
+			"company": "PublicStuff",
+			"location": "New York, NY",
+			"druation": "June 2013 – September 2013",
+			"position": "Web Developer Consultant",
+			"details": [
+				"test 1"
+			]
+		},
+		{
+			"company": "Insticator",
+			"location": "New York, NY",
+			"druation": "Oct 2012 – Mar 2013",
+			"position": "Web Developer Consultant",
+			"details": [
+				"test 1"
+			]
+		},
+		{
+			"company": "VIP Art",
+			"location": "New York, NY",
+			"druation": "Jun 2012 – Aug 2012",
+			"position": "Web Developer Consultant",
+			"details": [
+				"test 1"
+			]
+		}
+	]
+}
