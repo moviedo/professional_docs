@@ -4,31 +4,29 @@ const nunjucks = require('nunjucks');
 const convertHTMLToPDF = require('pdf-puppeteer');
 
 
-const resumeDir = './resumes';
+const dataDir = './data';
 const distDir = './dist';
-
-function buildPdf() {
-	const html = nunjucks.render(`${resumeDir}/frontend.html`, require('./data/frontend.json'));
-	convertHTMLToPDF(html, pdf => fs.writeFileSync(`${distDir}/frontend.pdf`, pdf), {margin: {
+const options = {
+	margin: {
 		top: '20mm',
 		right: '20mm',
 		bottom: '20mm',
 		left: '20mm',
-	}});
+	}
+};
 
-// fs.readFile(`${resumeDir}/frontend.html`, 'utf8', (err,template) => {
-//   if (!err) {
-// 		const html = nunjucks.render(template);
-// 		convertHTMLToPDF(html, pdf => fs.writeFileSync(`${distDir}/frontend.pdf`, pdf), {margin: {
-// 			top: '20mm',
-// 			right: '20mm',
-// 			bottom: '20mm',
-// 			left: '20mm',
-// 		}});
-//   }
-//   console.log(err);
-// });
+function buildPdf() {
+	fs.readdir(dataDir, (err, files) => {
+		if (!err) {
+			files.forEach(fileName => {
+				const name = fileName.split('.')[0];
+				const html = nunjucks.render('resume.html', require(`./data/${fileName}`));
 
+				convertHTMLToPDF(html, pdf => fs.writeFileSync(`${distDir}/${name}.pdf`, pdf), options);
+			});
+		} else
+			console.log('ERROR: ', err);
+	});
 }
 
 fs.mkdir(distDir, err => {
