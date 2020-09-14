@@ -2,13 +2,14 @@
 	"name": "professional_docs",
 	"version": "1.0.0",
 	"private": true,
-	"engines" : {
-		"node" : ">=12"
+	"engines": {
+		"node": ">=12"
 	},
 	"scripts": {
 		"build": "yarn node script.js"
 	},
 	"dependencies": {
-		"prince": "^1.8.3"
+		"nunjucks": "^3.2.2",
+		"pdf-puppeteer": "^1.1.10"
 	}
 }
