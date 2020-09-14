@@ -1,6 +1,6 @@
 # Professional Docs
 
-Project to manage and generate resume pdfs from html files.
+Project to manage and generate resume PDFs from html files.
 
 ## Setup
 
