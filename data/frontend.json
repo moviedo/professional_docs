@@ -1,20 +1,22 @@
 {
 	"skills": {
-		"Proficient in": "JavaScript, Vuejs, Angularjs, Webpack, Sass, Less, CSS, Git",
-		"Experienced with": "TypeScript, Angular, Python, Django, BackboneJS",
-		"Familiar with": "Reactjs, Erlang, Elixir, Phoenix"
+		"Proficient in": "JavaScript, Vuejs, Angularjs, Webpack, CSS, Git",
+		"Experienced with": "TypeScript, Angular, Python, Django, WCAG",
+		"Familiar with": "Reactjs, Erlang, Elixir, Phoenix, Postgres"
 	},
 	"experiences": [
 		{
 			"company": "Zipari",
-			"location": "New York, NY",
+			"location": "Remote in New York, NY",
 			"druation": "Mar 2015 – Present",
 			"position": "Lead Software Engineer",
 			"details": [
-				"test 1",
-				"test 2",
-				"test 3",
-				"test 4"
+				"Architected consumer facing and enterprise web apps using Django, AngularJS and Angular.",
+				"Completed code reviews for projects and mentored frontend developers.",
+				"Increased webpage performance by profiling and optimizating assets.",
+				"Took web apps from little to no accessibilty to full WCAG compliance.",
+				"Helped convert leads to sales by architecting automated demo apps.",
+				"Administed AWS infrastructure with Ansible, Jenkins and Gitlab."
 			]
 		},
 		{
@@ -23,9 +25,9 @@
 			"druation": "Feb 2014 – Feb 2015",
 			"position": "Full-Stack Developer",
 			"details": [
-				"test 1",
-				"test 2",
-				"test 3"
+				"Worked with MarionetteJS & AngularJS to build complex web apps.",
+				"Used PHP Laravel to created RESTful APIs and OAuth2 authentication.",
+				"Helped clients scope out projects & articulate ideas into functional apps."
 			]
 		},
 		{
@@ -34,8 +36,8 @@
 			"druation": "Sep 2013 – Feb 2014",
 			"position": "Full-Stack Developer",
 			"details": [
-				"test 1",
-				"test 2"
+				"Built MVP web app using Django, BackboneJS & OpenLayers.",
+				"Used Twilio to create user and vendor notification system."
 			]
 		},
 		{
@@ -44,7 +46,7 @@
 			"druation": "June 2013 – September 2013",
 			"position": "Web Developer Consultant",
 			"details": [
-				"test 1"
+				"Reimplemented mapping features with PHP, ArcGIS and PostgreSQL."
 			]
 		},
 		{
@@ -53,7 +55,7 @@
 			"druation": "Oct 2012 – Mar 2013",
 			"position": "Web Developer Consultant",
 			"details": [
-				"test 1"
+				"Worked with founder to build MVP using HTML, Sass, and JavaScript."
 			]
 		},
 		{
@@ -62,7 +64,7 @@
 			"druation": "Jun 2012 – Aug 2012",
 			"position": "Web Developer Consultant",
 			"details": [
-				"test 1"
+				"Worked on frontend using JavaSciprt, HTML, Sass and Bootstrap."
 			]
 		}
 	]
