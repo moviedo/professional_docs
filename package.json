@@ -7,7 +7,8 @@
 		"npm": "^7.21.0"
 	},
 	"scripts": {
-		"build": "node script.js"
+		"build": "node script.js",
+		"prepare": "husky install"
 	},
 	"dependencies": {
 		"nunjucks": "^3.2.3",
@@ -15,6 +16,7 @@
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^13.1.0",
-		"@commitlint/config-conventional": "^13.1.0"
+		"@commitlint/config-conventional": "^13.1.0",
+		"husky": "^7.0.0"
 	}
 }
