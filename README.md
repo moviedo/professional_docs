@@ -18,7 +18,7 @@ Installation setup.
 
 ## <a id="usage"></a> How to Generate PDFs
 
-Make changes to **resume.html**, partial files, and dependent JSON data files located in `./data` & `./partials`. Then, run `npm build` command to generate PDFs based on above file.
+Make changes to **resume.html**, partial files, and dependent JSON data files located in `./data` & `./partials`. Then, run `npm run build` command to generate PDFs based on above file.
 
 You can see all generated PDFs in the `./dist` directory.
 
