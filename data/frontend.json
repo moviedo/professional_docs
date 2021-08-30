@@ -6,9 +6,21 @@
 	},
 	"experiences": [
 		{
+			"company": "Ixlayer",
+			"location": "Remote in New York, NY",
+			"druation": "Jan 2021 - Present",
+			"position": "Senior Frontend Engineer",
+			"details": [
+        "Architecturing configurable white label web frontends with Vuejs.",
+        "Lead initiative for internal component libary with Storybook.js.",
+        "Lead initiative for Jest unittesting and Cypress testing.",
+        "Integrated Commitlint, Husky & other tools for better dev experience."
+			]
+		},
+		{
 			"company": "Zipari",
 			"location": "Remote in New York, NY",
-			"druation": "Mar 2015 – Present",
+			"druation": "Mar 2015 – Jan 2021",
 			"position": "Lead Software Engineer",
 			"details": [
 				"Architected consumer facing and enterprise web apps using Django, AngularJS and Angular.",
@@ -40,33 +52,26 @@
 				"Built MVP web app using Django, BackboneJS & OpenLayers.",
 				"Used Twilio to create user and vendor notification system."
 			]
-		},
-		{
-			"company": "PublicStuff",
-			"location": "New York, NY",
-			"druation": "June 2013 – September 2013",
-			"position": "Web Developer Consultant",
-			"details": [
-				"Reimplemented mapping features with PHP, ArcGIS and PostgreSQL."
-			]
-		},
-		{
-			"company": "Insticator",
-			"location": "New York, NY",
-			"druation": "Oct 2012 – Mar 2013",
-			"position": "Web Developer Consultant",
-			"details": [
-				"Worked with founder to build MVP using HTML, Sass, and JavaScript."
-			]
-		},
-		{
-			"company": "VIP Art",
-			"location": "New York, NY",
-			"druation": "Jun 2012 – Aug 2012",
-			"position": "Web Developer Consultant",
-			"details": [
-				"Worked on frontend using JavaSciprt, HTML, Sass and Bootstrap."
-			]
 		}
-	]
+	],
+  "consulting": {
+    "description": "Various web projects using JavaSciprt, HTML, CSS, and Postgres.",
+    "organization": [
+      {
+        "company": "PublicStuff",
+        "location": "New York, NY",
+        "druation": "Jun 2013 – Sep 2013"
+      },
+      {
+        "company": "Insticator",
+        "location": "New York, NY",
+        "druation": "Oct 2012 – Mar 2013"
+      },
+      {
+        "company": "VIP Art",
+        "location": "New York, NY",
+        "druation": "Jun 2012 – Aug 2012"
+      }
+    ]
+  }
 }
