@@ -3,13 +3,18 @@
 	"version": "1.0.0",
 	"private": true,
 	"engines": {
-		"node": ">=12"
+		"node": ">=16",
+		"npm": "^7.21.0"
 	},
 	"scripts": {
-		"build": "yarn node script.js"
+		"build": "node script.js"
 	},
 	"dependencies": {
-		"nunjucks": "^3.2.2",
+		"nunjucks": "^3.2.3",
 		"pdf-puppeteer": "^1.1.10"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^13.1.0",
+		"@commitlint/config-conventional": "^13.1.0"
 	}
 }
