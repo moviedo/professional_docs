@@ -18,8 +18,8 @@ module.exports = {
         'perf',
         'refactor',
         'style',
-        'test',
-      ],
-    ],
-  },
+        'test'
+      ]
+    ]
+  }
 }
