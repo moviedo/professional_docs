@@ -11,8 +11,8 @@
 			"druation": "Jan 2021 - Present",
 			"position": "Senior Frontend Engineer",
 			"details": [
-        "Architecturing configurable white label web frontends with Vuejs.",
-        "Lead initiative for internal component libary with Storybook.js.",
+        "Architecting configurable white label web frontends with Vuejs.",
+        "Lead initiative for internal component library with Storybook.js.",
         "Lead initiative for Jest unittesting and Cypress testing.",
         "Integrated Commitlint, Husky & other tools for better dev experience."
 			]
