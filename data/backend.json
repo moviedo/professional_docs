@@ -1,20 +1,35 @@
 {
 	"skills": {
 		"Proficient in": "JavaScript, Vuejs, Git, Vagrant, Ansible",
-		"Experienced with": "Python, Django, Postgres, PostGIS, AWS, Jenkins, Travis-CI",
-		"Familiar with": "Reactjs, Erlang, Elixir, Phoenix"
+		"Experienced with": "Elixir, Phoenix, Postgres, Docker, Python, Django, AWS",
+		"Familiar with": "Reactjs, Adonisjs"
 	},
 	"experiences": [
 		{
+			"company": "Ixlayer",
+			"location": "Remote in New York, NY",
+			"druation": "Jan 2021 - Present",
+			"position": "Senior Frontend Engineer",
+			"details": [
+        "Architecting configurable white label web frontends with Vuejs.",
+        "Lead initiative for internal component library with Storybook.js.",
+        "Lead initiative for Jest unittesting and Cypress testing.",
+        "Integrated Commitlint, Husky & other tools for better dev experience."
+			]
+		},
+		{
 			"company": "Zipari",
-			"location": "New York, NY",
-			"druation": "Mar 2015 – Present",
+			"location": "Remote in New York, NY",
+			"druation": "Mar 2015 – Jan 2021",
 			"position": "Lead Software Engineer",
 			"details": [
-				"test 1",
-				"test 2",
-				"test 3",
-				"test 4"
+				"Architected consumer facing and enterprise web apps using Django, AngularJS and Angular.",
+				"Completed code reviews for projects and mentored frontend developers.",
+				"Worked with developers, managers and clients to meet deadlines.",
+				"Increased webpage performance by profiling and optimizing assets.",
+				"Took web apps from little to no accessibility to full WCAG compliance.",
+				"Helped convert leads to sales by architecting automated demo apps.",
+				"Administered AWS infrastructure with Ansible, Jenkins and Gitlab."
 			]
 		},
 		{
@@ -23,9 +38,9 @@
 			"druation": "Feb 2014 – Feb 2015",
 			"position": "Full-Stack Developer",
 			"details": [
-				"test 1",
-				"test 2",
-				"test 3"
+				"Worked with MarionetteJS & AngularJS to build complex web apps.",
+				"Used PHP Laravel to created RESTful APIs and OAuth2 authentication.",
+				"Helped clients scope out projects & articulate ideas into functional apps."
 			]
 		},
 		{
@@ -34,36 +49,29 @@
 			"druation": "Sep 2013 – Feb 2014",
 			"position": "Full-Stack Developer",
 			"details": [
-				"test 1",
-				"test 2"
-			]
-		},
-		{
-			"company": "PublicStuff",
-			"location": "New York, NY",
-			"druation": "June 2013 – September 2013",
-			"position": "Web Developer Consultant",
-			"details": [
-				"test 1"
-			]
-		},
-		{
-			"company": "Insticator",
-			"location": "New York, NY",
-			"druation": "Oct 2012 – Mar 2013",
-			"position": "Web Developer Consultant",
-			"details": [
-				"test 1"
-			]
-		},
-		{
-			"company": "VIP Art",
-			"location": "New York, NY",
-			"druation": "Jun 2012 – Aug 2012",
-			"position": "Web Developer Consultant",
-			"details": [
-				"test 1"
+				"Built MVP web app using Django, BackboneJS & OpenLayers.",
+				"Used Twilio to create user and vendor notification system."
 			]
 		}
-	]
+	],
+  "consulting": {
+    "description": "Various web projects using JavaSciprt, HTML, CSS, and Postgres.",
+    "organization": [
+      {
+        "company": "PublicStuff",
+        "location": "New York, NY",
+        "druation": "Jun 2013 – Sep 2013"
+      },
+      {
+        "company": "Insticator",
+        "location": "New York, NY",
+        "druation": "Oct 2012 – Mar 2013"
+      },
+      {
+        "company": "VIP Art",
+        "location": "New York, NY",
+        "druation": "Jun 2012 – Aug 2012"
+      }
+    ]
+  }
 }
